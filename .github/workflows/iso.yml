@@ -28,7 +28,7 @@ jobs:
           image_name: ${{ env.IMAGE_NAME}}
           image_repo: ${{ env.IMAGE_REPO}}
           image_tag: ${{ env.IMAGE_TAG }}
-          iso_name: ${{ env.IMAGE_NAME }}-${{ env.IMAGE_TAG }}-${{ env.VERSION }}.iso
+          iso_name: ${{ env.IMAGE_NAME }}-${{ env.IMAGE_TAG }}.iso
 
       - name: Upload ISO as artifact
         id: upload
