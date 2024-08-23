@@ -16,4 +16,4 @@ rpm-ostree install \
 systemctl enable podman.socket
 
 # Make zsh the default shell
-sudo sed -i 's|^SHELL=.*|SHELL=/bin/zsh|' /etc/default/useradd
+sed -i 's|^SHELL=.*|SHELL=/bin/zsh|' /etc/default/useradd
