@@ -8,6 +8,7 @@ env:
   IMAGE_NAME: "magnouvean-ublue"
   IMAGE_REPO: "ghcr.io/magnouvean"
   IMAGE_TAG: "latest"
+  VERSION: 40
 
 jobs:
   build-iso:
