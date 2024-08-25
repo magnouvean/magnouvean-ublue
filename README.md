@@ -11,6 +11,6 @@ IMAGE_REPO=ghcr.io/magnouvean \
 IMAGE_NAME=magnouvean-ublue \
 IMAGE_TAG=latest \
 VERSION=40 \
-VARIANT=Server
+VARIANT=Silverblue
 ```
 The installation iso can then be found at `./iso-output/deploy.iso`.
