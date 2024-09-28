@@ -6,6 +6,7 @@ rpm-ostree install \
   bat \
   code \
   eza \
+  gnome-console \
   gnome-shell-extension-appindicator \
   gnome-shell-extension-caffeine \
   gnome-shell-extension-dash-to-dock \
