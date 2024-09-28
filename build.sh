@@ -9,6 +9,7 @@ rpm-ostree install \
   gnome-shell-extension-appindicator \
   gnome-shell-extension-caffeine \
   gnome-shell-extension-dash-to-dock \
+  jetbrains-mono-fonts-all \
   ripgrep \
   stow \
   syncthing \
