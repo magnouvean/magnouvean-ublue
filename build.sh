@@ -7,9 +7,6 @@ rpm-ostree install \
   code \
   eza \
   gnome-console \
-  gnome-shell-extension-appindicator \
-  gnome-shell-extension-caffeine \
-  gnome-shell-extension-dash-to-dock \
   jetbrains-mono-fonts-all \
   ripgrep \
   stow \
@@ -17,8 +14,16 @@ rpm-ostree install \
   vim \
   zsh \
   zsh-autosuggestions \
-  zsh-syntax-highlighting \
-  "https://github.com/displaylink-rpm/displaylink-rpm/releases/download/v6.0.0-1/fedora-40-displaylink-1.14.6-1.github_evdi.x86_64.rpm"
+  zsh-syntax-highlighting
+
+rpm-ostree install \
+  gnome-shell-extension-appindicator \
+  gnome-shell-extension-caffeine \
+  gnome-shell-extension-dash-to-dock
+
+rpm-ostree install code
+
+rpm-ostree install "https://github.com/displaylink-rpm/displaylink-rpm/releases/download/v6.0.0-1/fedora-39-displaylink-1.14.6-1.github_evdi.x86_64.rpm"
 
 systemctl enable podman.socket
 
