@@ -4,7 +4,6 @@ set -ouex pipefail
 
 rpm-ostree install \
   bat \
-  code \
   eza \
   gnome-console \
   jetbrains-mono-fonts-all \
@@ -22,8 +21,6 @@ rpm-ostree install \
   gnome-shell-extension-dash-to-dock
 
 rpm-ostree install code
-
-rpm-ostree install "https://github.com/displaylink-rpm/displaylink-rpm/releases/download/v6.0.0-1/fedora-39-displaylink-1.14.6-1.github_evdi.x86_64.rpm"
 
 systemctl enable podman.socket
 
