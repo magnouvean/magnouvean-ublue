@@ -22,8 +22,6 @@ rpm-ostree install \
 
 rpm-ostree install code
 
-rpm-ostree install "https://github.com/OpenTabletDriver/OpenTabletDriver/releases/download/v0.6.4.0/OpenTabletDriver.rpm"
-
 systemctl enable podman.socket
 
 # Make zsh the default shell
