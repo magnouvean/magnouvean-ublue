@@ -6,7 +6,6 @@ RELEASE="$(rpm -E %fedora)"
 
 rpm-ostree install \
         bat \
-        code \
         eza \
         gnome-console \
         ripgrep \
