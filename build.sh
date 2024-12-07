@@ -6,8 +6,9 @@ RELEASE="$(rpm -E %fedora)"
 
 rpm-ostree install \
         bat \
-        ripgrep \
         eza \
+        gnome-console \
+        ripgrep \
         stow \
         syncthing \
         vim \
